@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 st.title("India Census Data of 2011")
-df=pd.read_csv("India.csv")
+df=pd.read_csv("India1 (1).csv")
 st.sidebar.title("India Map")
 list_of_states=df["State"].unique().tolist()
 list_of_states.insert(0,"Overall India")
